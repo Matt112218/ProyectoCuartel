@@ -1,0 +1,39 @@
+.all {
+  display: flex;
+  flex-direction: column-reverse;
+  border: #000 solid 1px;
+  justify-content: space-around;
+  align-items: flex-end;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  min-height: fit-content;
+}
+
+.disponibilidad {
+  height: 100px;
+  width: fit-content;
+  margin-top: 0%;
+  border: #000 solid 1px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.conjunto {
+  display: flex;
+  flex-direction: row;
+  min-width: 100vh;
+  min-height: max-content;
+  border: #7517a0 solid 5px;
+  border-radius: 25px;
+  justify-content: space-evenly;
+}
+
+.extras {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-width: 100vh;
+  height: 100px;
+  padding: 1rem;
+}
