@@ -17,6 +17,9 @@ export interface Bombero {
     | "No Disponible"
     | "En Base"
     | "En Servicio";
+  chofer: boolean;
 }
+
+export type UniqueBombero = { Bombero: Bombero };
 
 export type Bomberos = Bombero[];
